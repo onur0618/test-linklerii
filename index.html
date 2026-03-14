@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TÜM DERSLER TEST LİNKLERİ</title>
+
+<style>
+
+:root{
+--bg:#f0f2f5;
+--card:#ffffff;
+--text:#333;
+--title:#006d75;
+--menu:#00b7c2;
+}
+
+body.dark{
+--bg:#121212;
+--card:#1e1e1e;
+--text:#e6e6e6;
+--title:#4dd0e1;
+--menu:#004f52;
+}
+
+body{
+margin:0;
+font-family:Segoe UI,Arial;
+background:var(--bg);
+color:var(--text);
+transition:0.3s;
+}
+
+header{
+background:linear-gradient(135deg,#00b7c2,#37d4d9,#6af0f3);
+padding:40px;
+text-align:center;
+font-size:28px;
+font-weight:700;
+color:white;
+border-bottom-left-radius:25px;
+border-bottom-right-radius:25px;
+position:relative;
+}
+
+.toggle{
+position:absolute;
+right:20px;
+top:20px;
+background:white;
+border:none;
+padding:8px 14px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.menu{
+background:var(--menu);
+padding:12px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.menu button{
+border:2px solid white;
+background:transparent;
+color:white;
+padding:10px 18px;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+}
+
+.dropdown{
+display:none;
+background:var(--card);
+margin-top:10px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dropdown a{
+display:block;
+padding:12px;
+text-decoration:none;
+color:var(--text);
+border-bottom:1px solid #ddd;
+font-weight:600;
+}
+
+.dropdown a:hover{
+background:#e0f7fa;
+}
+
+main{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.section{
+text-align:center;
+margin-top:60px;
+font-size:24px;
+font-weight:700;
+color:var(--title);
+}
+
+.card{
+background:var(--card);
+padding:18px;
+margin:10px 0;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.2s;
+}
+
+.card:hover{
+transform:translateY(-3px);
+}
+
+.card a{
+text-decoration:none;
+font-weight:700;
+color:#007c85;
+font-size:18px;
+}
+
+.desc{
+font-size:14px;
+opacity:0.8;
+margin-top:6px;
+}
+
+footer{
+text-align:center;
+margin:60px 0;
+font-weight:700;
+}
+
+#topBtn{
+position:fixed;
+bottom:25px;
+right:25px;
+display:none;
+background:#00b7c2;
+color:white;
+border:none;
+padding:12px 16px;
+border-radius:10px;
+font-size:18px;
+cursor:pointer;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+📚 TÜM DERSLER TEST LİNKLERİ
+<button class="toggle" onclick="dark()">🌙</button>
+</header>
+
+<div class="menu">
+<button onclick="menu()">📂 KATEGORİLER</button>
+
+<div id="drop" class="dropdown">
+<a href="#denetim">📘 Muhasebe Denetimi</a>
+<a href="#vergi">🧾 Vergi Hukuku</a>
+<a href="#temelhukuk">⚖️ Temel Hukuk</a>
+<a href="#spk">📈 SPK</a>
+<a href="#fta">📊 Finansal Tablolar Analizi</a>
+<a href="#fm">📚 Finansal Muhasebe</a>
+<a href="#maliyet">🏭 Maliyet Muhasebesi</a>
+<a href="#meslek">📜 Meslek Hukuku</a>
+</div>
+</div>
+
+<main>
+
+<div id="denetim" class="section">📘 MUHASEBE DENETİMİ TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/50ad72f42348">Denetim Test 1</a>
+<div class="desc">33 Kolay • 33 Orta • 34 Zor Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/04a911ac28ed">Denetim Test 2</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/e2912c21a43f">Denetim Test 3</a>
+<div class="desc">50 Zor Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/2a3f72360da3">Denetim Test 4</a>
+<div class="desc">Bağımsız Denetim Yönetmeliği • 50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/2ae0ba06a9e4">Denetim Test 5</a>
+<div class="desc">Bağımsız Denetim Standartları • 50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/6ceb67287359">Denetim Test 6</a>
+<div class="desc">Bağımsız Denetim Yönetmeliği 2 • 50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/7cae734cc2a9">Denetim Test 7</a>
+<div class="desc">Kalite Yönetim Standartları • 45 Soru</div></div>
+
+<div id="vergi" class="section">🧾 VERGİ HUKUKU TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/a404ee9ecde8">Vergi Test 1</a>
+<div class="desc">30 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/c73159eccf13">Vergi Test 2</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/148a3cc2bf58">Vergi Test 3</a>
+<div class="desc">Gelir Vergisi • 40 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/2665cafd2d2c">Vergi Test 4</a>
+<div class="desc">60 Soru</div></div>
+
+<div id="temelhukuk" class="section">⚖️ TEMEL HUKUK TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/cd7f3517af4c">Temel Hukuk Test 1</a>
+<div class="desc">20 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/10bd151acbb4">Temel Hukuk Test 2</a>
+<div class="desc">30 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/11c67addb259">Temel Hukuk Test 3</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/14b146f5db2f">Temel Hukuk Test 4</a>
+<div class="desc">4 Deneme • Her biri 24 Soru • Toplam 96 Soru</div></div>
+
+<div id="spk" class="section">📈 SPK TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/c06a74e8c306">SPK Test 1</a>
+<div class="desc">20 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/8ad991f54ebb">SPK Test 2</a>
+<div class="desc">50 Soru</div></div>
+
+<div id="fta" class="section">📊 FİNANSAL TABLOLAR ANALİZİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/9eb8e1928769">Test 1</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/4c50bf462707">Test 2</a>
+<div class="desc">50 Soru</div></div>
+
+<div id="fm" class="section">📚 FİNANSAL MUHASEBE TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/a55ba9dba0ff">Test 1</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/9757e2570c91">Test 2</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/e067d59bafb6">Test 3</a>
+<div class="desc">50 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/c668262ed57e">Test 4</a>
+<div class="desc">50 Soru</div></div>
+
+<div id="maliyet" class="section">🏭 MALİYET MUHASEBESİ TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/6efff726a51f">Test 1</a>
+<div class="desc">20 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/3a161dd5ae57">Test 2</a>
+<div class="desc">10 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/a9ca244e8de6">Test 3</a>
+<div class="desc">10 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/00b45620e4b6">Test 4</a>
+<div class="desc">30 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/4082c17a245e">Test 5</a>
+<div class="desc">30 Soru</div></div>
+
+<div class="card"><a href="https://gemini.google.com/share/73806eef98c4">Test 6</a>
+<div class="desc">10 Soru</div></div>
+
+<div id="meslek" class="section">📜 MESLEK HUKUKU TESTLERİ</div>
+
+<div class="card"><a href="https://gemini.google.com/share/a7d2cceeb059">Meslek Hukuku Test 1</a>
+<div class="desc">50 Soru</div></div>
+
+</main>
+
+<footer>
+SINAVDA HERKESE BAŞARILAR EMEĞİ GEÇEN HERKESE TEŞEKKÜRLER...
+</footer>
+
+<button onclick="topFunction()" id="topBtn">⬆</button>
+
+<script>
+
+function menu(){
+let d=document.getElementById("drop");
+d.style.display=d.style.display==="block"?"none":"block";
+}
+
+function dark(){
+document.body.classList.toggle("dark");
+}
+
+let topButton=document.getElementById("topBtn");
+
+window.onscroll=function(){
+if(document.body.scrollTop>200||document.documentElement.scrollTop>200){
+topButton.style.display="block";
+}else{
+topButton.style.display="none";
+}
+};
+
+function topFunction(){
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+}
+
+</script>
+
+</body>
+</html>
