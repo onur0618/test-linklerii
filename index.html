@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMMM YETERLİLİK YAPAY ZEKA İLE OLUŞTURULAN TESTLER</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #e7e7e7;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+.dark-mode {
+    background: #222;
+    color: #ddd;
+}
+
+header {
+    background: #008b9a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.category-links {
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.category-links a {
+    margin:6px;
+    font-weight:bold;
+    color: #005f66;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.7);
+    transition: 0.3s;
+    display:inline-block;
+}
+
+.category-links a:hover {
+    background: #00b7c2;
+    color: white;
+}
+
+.dark-mode .category-links a {
+    background: rgba(255,255,255,0.15);
+    color: #aad8df;
+}
+
+.dark-mode .category-links a:hover {
+    background: #00b7c2;
+    color: white;
+}
+
+.section-title {
+    font-size: 22px;
+    margin-top: 35px;
+    font-weight: bold;
+    padding: 10px;
+    background: #00b7c2;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.dark-mode .card {
+    background: rgba(255,255,255,0.05);
+}
+
+.card a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #008b9a;
+    text-decoration: none;
+}
+
+.card p {
+    margin: 6px 0 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.dark-mode .card p {
+    color: #ccc;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #00b7c2;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: .3s;
+    z-index: 1000;
+}
+#topBtn:hover {
+    background: #009ca5;
+}
+
+#darkModeBtn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.signature {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 14px;
+    color: #555;
+    text-shadow: 0 0 4px rgba(255,255,255,0.3);
+    animation: glow 1.5s infinite alternate ease-in-out;
+    pointer-events: none;
+    z-index: 1001;
+}
+
+.dark-mode .signature {
+    color: #aaa;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 2px rgba(255,255,255,0.3); opacity: 0.5; }
+    to { text-shadow: 0 0 10px rgba(255,255,255,1); opacity: 1; }
+}
+
+@media (max-width:600px) {
+    .category-links a {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin:4px;
+    }
+    .signature {
+        font-size: 12px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>SMMM YETERLİLİK YAPAY ZEKA İLE OLUŞTURULAN TESTLER</header>
+
+<button id="darkModeBtn" onclick="toggleDarkMode()">🌙</button>
+
+<div class="container">
+
+<div class="category-links">
+    <a href="#denetim">Denetim</a>
+    <a href="#vergi">Vergi Hukuku</a>
+    <a href="#hukuk">Temel Hukuk</a>
+    <a href="#spk">SPK</a>
+    <a href="#maliyet">Maliyet</a>
+    <a href="#finansal">Finansal Muhasebe</a>
+    <a href="#finansaltablo">Finansal Tablolar Analizi</a>
+    <a href="#meslek">Meslek Hukuku</a>
+</div>
+
+<!-- DENETİM -->
+<div id="denetim" class="section-title">🧾 MUHASEBE DENETİMİ TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/50ad72f42348">DENETİM TEST 1</a><p>33 Kolay – 33 Orta – 34 Zor</p></div>
+<div class="card"><a href="https://gemini.google.com/share/04a911ac28ed">DENETİM TEST 2</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/e2912c21a43f">DENETİM TEST 3</a><p>Zor – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/2a3f72360da3">DENETİM TEST 4</a><p>Bağımsız Denetim Yönetmeliği – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/2ae0ba06a9e4">DENETİM TEST 5</a><p>Bağımsız Denetim Standartları – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/6ceb67287359">DENETİM TEST 6</a><p>Bağımsız Denetim Yönetmeliği 2 – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/7cae734cc2a9">DENETİM TEST 7</a><p>Kalite Yönetim Standartları – 45 Soru</p></div>
+
+<!-- VERGİ -->
+<div id="vergi" class="section-title">💰 VERGİ HUKUKU TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/a404ee9ecde8">VERGİ TEST 1</a><p>Vergi Usul Kanunu – 30 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/c73159eccf13">VERGİ TEST 2</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/148a3cc2bf58">VERGİ TEST 3</a><p>Gelir Vergisi 2 – 40 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/2665cafd2d2c">VERGİ TEST 4</a><p>KDV – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/989474f1e13b">VERGİ TEST 5</a><p>KDV – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/312b96700040">VERGİ TEST 6</a><p>20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/55fd74637487">VERGİ TEST 7</a><p>SMMM SGS – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/fd8f4d75b241">VERGİ TEST 8</a><p>Gelir Vergisi 2 – 40 Soru</p></div>
+
+<!-- TEMEL HUKUK -->
+<div id="hukuk" class="section-title">⚖️ TEMEL HUKUK TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/cd7f3517af4c">TEMEL HUKUK TEST 1</a><p>20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/10bd151acbb4">TEMEL HUKUK TEST 2</a><p>30 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/11c67addb259">TEMEL HUKUK TEST 3</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/14b146f5db2f">TEMEL HUKUK TEST 4</a><p>4 Deneme – Toplam 96 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/6ff6064fb562">TEMEL HUKUK TEST 5</a><p>Ticaret Hukuku – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/a10c26f7f2e6">TEMEL HUKUK TEST 6</a><p>İdari Yargı Hukuku – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/1230ecfcfe9e">TEMEL HUKUK TEST 7</a><p>İş ve Sosyal Güvenlik Hukuku 3 – 50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/e5a29305574a">TEMEL HUKUK TEST 8</a><p>Borçlar Hukuku – 20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/b246f23f5e2e">TEMEL HUKUK TEST 9</a><p>İş ve Sosyal Güvenlik Hukuku – 20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/8e8fcce29ded">TEMEL HUKUK TEST 10</a><p>Ticaret Hukuku – 20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/6959415aa2b8">TEMEL HUKUK TEST 11</a><p>İdari Yargılama Hukuku 2 – 20 Soru</p></div>
+
+<!-- SPK -->
+<div id="spk" class="section-title">📘 SPK TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/c06a74e8c306">SPK TEST 1</a><p>20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/8ad991f54ebb">SPK TEST 2</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/841b87c46af7">SPK TEST 3</a><p>50 Soru</p></div>
+
+<!-- MALİYET -->
+<div id="maliyet" class="section-title">📊 MALİYET MUHASEBESİ TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/6efff726a51f">MALİYET TEST 1</a><p>20 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/3a161dd5ae57">MALİYET TEST 2</a><p>10 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/a9ca244e8de6">MALİYET TEST 3</a><p>10 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/00b45620e4b6">MALİYET TEST 4</a><p>30 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/4082c17a245e">MALİYET TEST 5</a><p>30 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/73806eef98c4">MALİYET TEST 6</a><p>10 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/1da583f754b8">MALİYET TEST 7</a><p>Sözel Tanımlar – 50 Soru</p></div>
+
+<!-- FİNANSAL MUHASEBE -->
+<div id="finansal" class="section-title">📂 FİNANSAL MUHASEBE TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/a55ba9dba0ff">FİNANSAL MUHASEBE TEST 1</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/9757e2570c91">FİNANSAL MUHASEBE TEST 2</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/e067d59bafb6">FİNANSAL MUHASEBE TEST 3</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/c668262ed57e">FİNANSAL MUHASEBE TEST 4</a><p>50 Soru</p></div>
+
+<!-- FİNANSAL TABLOLAR ANALİZİ -->
+<div id="finansaltablo" class="section-title">📑 FİNANSAL TABLOLAR ANALİZİ TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/9eb8e1928769">FİNANSAL TABLOLAR ANALİZİ TEST 1</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/5f8a1a2c3e7b">FİNANSAL TABLOLAR ANALİZİ TEST 2</a><p>30 Soru</p></div>
+
+<!-- MESLEK HUKUKU -->
+<div id="meslek" class="section-title">📜 MESLEK HUKUKU TESTLERİ</div>
+<div class="card"><a href="https://gemini.google.com/share/a7d2cceeb059">MESLEK HUKUKU TEST 1</a><p>50 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/485cda78953f">MESLEK HUKUKU TEST 2</a><p>Genel Şartlar, Yasaklar, Disiplin Cezaları, Etik İlkeler – 10 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/b2a7ab778186">MESLEK HUKUKU TEST 3</a><p>10 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/312a631b7ef5">MESLEK HUKUKU TEST 4</a><p>10 Soru</p></div>
+<div class="card"><a href="https://gemini.google.com/share/1bcea7a77c20">MESLEK HUKUKU TEST 5</a><p>3568 – 20 Soru</p></div>
+
+</div>
+
+<footer style="text-align:center; margin:30px 0; font-weight:bold; font-size:18px;">
+EMEĞİ GEÇEN HERKESE TEŞEKKÜRLER...
+</footer>
+
+<button onclick="topFunction()" id="topBtn">⬆</button>
+
+<div class="signature">SAYFAYI HAZIRLAYAN: ONUR K.</div>
+
+<script>
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
+let topButton = document.getElementById("topBtn");
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+};
+
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+
+</body>
+</html>
